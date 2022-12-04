@@ -3,9 +3,29 @@
 version = 3
 
 [[package]]
+name = "array_tool"
+version = "1.0.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "8f8cb5d814eb646a863c4f24978cff2880c4be96ad8cde2c0f0678732902e271"
+
+[[package]]
 name = "day01"
 version = "1.0.0"
 
 [[package]]
 name = "day02"
 version = "1.0.0"
+
+[[package]]
+name = "day03"
+version = "1.0.0"
+dependencies = [
+ "array_tool",
+ "tuple",
+]
+
+[[package]]
+name = "tuple"
+version = "0.5.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "39a40ba241047e1174c927dc5f61c141a166b938d61a2ff61838441368cc7d0e"
